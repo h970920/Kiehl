@@ -1,15 +1,15 @@
 const images = [
-  ".././images/prod.png",
-  "../images/prod2.png",
-  "../images/prod3.png",
-  "../images/prod4.png",
+  "./images/prod.png",
+  "./images/prod2.png",
+  "./images/prod3.png",
+  "./images/prod4.png",
 ];
 
 const $images__tex = [
-  "../images/skin_tex.png",
-  "../images/prod2tex.png",
-  "../images/prod3tex.png",
-  "../images/prod4tex.png",
+  "./images/skin_tex.png",
+  "./images/prod2tex.png",
+  "./images/prod3tex.png",
+  "./images/prod4tex.png",
 ];
 
 let currentImageIndex = 0;
