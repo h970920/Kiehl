@@ -1,0 +1,109 @@
+/* 어바웃 텍스트 */
+
+.about__textbox {
+  padding: 30px;
+}
+
+/* 섹션 1 */
+
+.about__container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  height: 500px;
+  align-items: center;
+  position: relative;
+  justify-content: space-around;
+  margin-top: -200px; /* 더 위로 올리기 위한 마진 설정 */
+}
+
+.about__container__img {
+  background-image: url(../images/prod.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+button {
+  top: 50%;
+}
+
+#prevButton {
+  left: 10px;
+}
+
+#nextButton {
+  right: 10px;
+}
+.about__container__text {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+.product__title {
+  padding: 5px;
+}
+.product__title__texture {
+  padding: 30px;
+}
+
+.product_text {
+  top: 30%;
+  left: 10%;
+  width: 80%;
+}
+.product_text > span {
+  font-size: 60px;
+  line-height: 1.6;
+}
+
+/* 섹션1 이미지박스 */
+
+.about__container__img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 500px;
+}
+
+.about__container__img > img {
+  width: 60%;
+}
+
+.texture__img {
+  width: 150px;
+  height: 150px;
+  background-image: url(../images/skin_tex.png);
+  background-size: cover;
+}
+
+/* 미디어 * /
+/* 스크린 크기가 767px 이하일 때 */
+@media (max-width: 991.98px) {
+  .about__container {
+    flex-direction: column;
+    height: auto; /* 자동으로 높이 조절 */
+    margin-top: 0;
+  }
+
+  .about__container__img {
+    width: 100%;
+    order: 2; /* 텍스트를 아래로 이동 */
+  }
+
+  .about__container__text {
+    order: 1; /* 텍스트를 위로 이동 */
+  }
+}
+
+/* 테스트영역 */
+#imageContainer,
+.texture__img,
+.product__title > h1,
+.product_text > span > p {
+  transition: opacity 0.8s ease-in-out;
+  opacity: 0;
+}
