@@ -1,8 +1,8 @@
 const images = [
-  "./images/prod.png",
-  "./images/prod2.png",
-  "./images/prod3.png",
-  "./images/prod4.png",
+  "../images/prod.png",
+  "../images/prod2.png",
+  "../images/prod3.png",
+  "./../images/prod4.png",
 ];
 
 const $images__tex = [
