@@ -6,15 +6,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 샘플 제품 데이터 (자신의 데이터로 교체 가능)
   const products = [
-    { id: 1, name: "Cream", image: "/images/prod.png" },
-    { id: 2, name: "Essence", image: "/images/prod2.png" },
-    { id: 3, name: "Toner", image: "/images/prod3.png" },
-    { id: 4, name: "Cleansing Foam", image: "/images/prod4.png" },
-    { id: 5, name: "Cleansing Oil", image: "/images/prod5.png" },
-    { id: 6, name: "Lip Balm", image: "/images/prod6.png" },
-    { id: 7, name: "Sun Cream", image: "/images/prod7.png" },
-    { id: 8, name: "Serum", image: "/images/prod8.png" },
-    { id: 8, name: "Peel Toner", image: "/images/prod9.png" },
+    { id: 1, name: "Cream", image: "./images/prod.png" },
+    { id: 2, name: "Essence", image: "./images/prod2.png" },
+    { id: 3, name: "Toner", image: "./images/prod3.png" },
+    { id: 4, name: "Cleansing Foam", image: "./images/prod4.png" },
+    { id: 5, name: "Cleansing Oil", image: "./images/prod5.png" },
+    { id: 6, name: "Lip Balm", image: "./images/prod6.png" },
+    { id: 7, name: "Sun Cream", image: "./images/prod7.png" },
+    { id: 8, name: "Serum", image: "./images/prod8.png" },
+    { id: 8, name: "Peel Toner", image: "./images/prod9.png" },
     // 필요에 따라 더 많은 제품 추가
   ];
 
