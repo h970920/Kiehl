@@ -85,7 +85,7 @@ button {
 @media (max-width: 991.98px) {
   .about__container {
     flex-direction: column;
-    height: auto; /* 자동으로 높이 조절 */
+    height: auto;
     margin-top: 0;
   }
 
@@ -96,6 +96,9 @@ button {
 
   .about__container__text {
     order: 1; /* 텍스트를 위로 이동 */
+  }
+  .section {
+    height: 1200px;
   }
 }
 

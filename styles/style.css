@@ -242,10 +242,11 @@ body {
 
 .home__dec {
   position: relative;
+  top: 10%;
   width: 100%; /* 원하는 가로 길이 */
   height: 1px; /* 선의 두께 */
   background-color: red; /* 선의 색상 */
-  margin: 20px auto; /* 위아래 여백 조절 */
+  margin: 30px auto; /* 위아래 여백 조절 */
   animation: none;
   -webkit-animation: fadein 5s; /* Safari and Chrome */
 }
@@ -253,7 +254,7 @@ body {
 .home__dec::after {
   content: "";
   position: absolute;
-  width: 200px; /* 원하는 선이 잘린 부분의 길이 */
+  width: 100px; /* 원하는 선이 잘린 부분의 길이 */
   height: 2px; /* 선의 두께 */
   background-color: #fff; /* 배경색과 같은 색상으로 설정 */
   top: 0;
@@ -291,13 +292,20 @@ p.home__text {
   font-size: 42px;
   line-height: 38px;
   position: absolute;
-  top: 42%;
 }
 h1.home__text {
+  background-image: url(../images/pngegg.png);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  background-position: 50% -5%;
   font-family: "Anton", sans-serif;
   font-size: 52px;
   font-weight: 700;
   position: absolute;
+
   top: 30%;
   letter-spacing: 3px;
 }

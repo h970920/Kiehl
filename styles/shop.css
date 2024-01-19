@@ -1,3 +1,8 @@
+#about2 h1 {
+  display: flex;
+  position: relative;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, minmax(200px, 1fr));
