@@ -29,3 +29,13 @@ video {
   width: 400px;
   line-height: 40px;
 }
+
+@media (max-width: 991.98px) {
+  #service {
+    display: flex;
+    flex-direction: column;
+  }
+  .service__text {
+    padding: 30px;
+  }
+}
